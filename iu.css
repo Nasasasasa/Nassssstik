@@ -1,0 +1,140 @@
+/***
+font-family: 'Raleway',
+sans-serif;
+***/
+
+@import url(http://weloveiconfonts.com/api/?family=typicons);
+@import url(https://db.onlinewebfonts.com/c/069d6da94e3ce0156f8eb9de5f61d079?family=F5ka+Sans+Design+Regular);
+@font-face{
+    font-family: "Raleway";
+    src: url("fonts/5kaSansDesignBlack.ttf") format("truetype");
+
+    }
+*,
+html,
+body {
+    margin: 0;
+    box-sizing: border-box;
+    color: #3e454c;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Raleway',
+        sans-serif;
+    background-color: #ecf0f1;
+}
+
+q {
+    font-style: italic;
+}
+
+.container {
+    text-align: center;
+}
+
+.container>div {
+    padding: 65px;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 600;
+    font-family: 'Raleway',
+        serif;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2.4em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-position: center;
+    background-size: cover;
+
+    /* transition-delay: 500ms; */
+
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.header>h1 {
+    font-size: 1.4em;
+    color: Red;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    font-family: 'Raleway',
+        serif;
+    font-weight: 700;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.header>h1>span {
+    display: block;
+    color: #fff;
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 9px;
+    text-transform: lowercase;
+    font-weight: 400;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+   
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+   
+  input, textarea {
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+  }
+   
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  a:link {
+    color: #fcfcfc; /* Цвет ссылок */
+   }
+   a:visited {
+    color: #f6f3f2; /* Цвет посещенных ссылок */
+   }
+   a:active {
+    color: rgb(7, 20, 136); /* Цвет активной ссылки */ 
+   }

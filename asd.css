@@ -1,0 +1,475 @@
+/***
+font-family: 'Raleway',
+sans-serif;
+***/
+
+@import url(http://weloveiconfonts.com/api/?family=typicons);
+@import url(https://db.onlinewebfonts.com/c/069d6da94e3ce0156f8eb9de5f61d079?family=F5ka+Sans+Design+Regular);
+@font-face{
+    font-family: "Raleway";
+    src: url("fonts/5kaSansDesignBlack.ttf") format("truetype");
+
+    }
+*,
+html,
+body {
+    margin: 0;
+    box-sizing: border-box;
+    color: #3e454c;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Raleway',
+        sans-serif;
+    background-color: #ecf0f1;
+}
+
+q {
+    font-style: italic;
+}
+
+.container {
+    text-align: center;
+}
+
+.container>div {
+    padding: 65px;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 600;
+    font-family: 'Raleway',
+        serif;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2.4em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-position: center;
+    background-size: cover;
+
+    /* transition-delay: 500ms; */
+
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.header>h1 {
+    font-size: 1.4em;
+    color: Red;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    font-family: 'Raleway',
+        serif;
+    font-weight: 700;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.header>h1>span {
+    display: block;
+    color: #fff;
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 9px;
+    text-transform: lowercase;
+    font-weight: 400;
+}
+
+nav {
+    font-family: 'Raleway',
+        serif;
+    align-self: stretch;
+    flex-grow: 1;
+    text-align: right;
+    transition-duration: 300ms;
+}
+
+.fullMenu ul li{
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    padding: 0px 25px;
+    list-style: none;
+    
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: Red;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1.4px;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+#collMenu, label[for='toggleMenu']{
+    display: none;
+}
+
+.scrolledHeader {
+    position: fixed;
+    background-color: whitesmoke;
+    height: 60px;
+    width: 100%;
+    z-index: 999;
+    transition-duration: 400ms;
+}
+
+.scrolledHeader nav {
+    position: relative;
+    top: -20px;
+}
+
+.scrolledHeader h1 {
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.scrolledHeader>h1>span {
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    
+}
+
+.header>h1,
+.header>h1>span {
+    transition: 230ms;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 90px;
+}
+
+.serviceBox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    margin-bottom: 0;
+    min-width: 370px;
+    height: 370px;
+    flex: 1 1 1;
+
+}
+
+.serviceLabel a {
+    color: #fff;
+    font-size: 1.3em;
+    border: 2px solid #fff;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 15px;
+    
+    
+}
+
+
+.parallaxThree {
+    background: url("image/8550474879e1e262f776c4646041b1c7.jpg") center;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+#serviceTwo:hover{
+    background-size: 250%;
+}
+.portfolio {
+
+    margin: 0 auto;
+
+}
+
+.portfolio img {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.mega {
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+
+.album {
+    position: relative;
+}
+
+.albumTitle {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 40%;
+}
+
+.hideText {
+    display: none;
+}
+
+.hideText h2,
+.hideText p {
+    color: red;
+
+}
+.parallaxTwo {
+    background: url("image/scale_1200.jfif") center;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.headone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Raleway;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+    margin-top:5%;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.titles img {
+    width:56%;
+}        
+
+.koguvcavis-varazdel {
+    padding: 38px 0;
+    background: #ffffff;
+    color: #2f2f2f;
+    text-align: center;
+  }
+  .sestim-donials{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  
+  .sectionesag {
+    width: 195px;
+    height: 3px;
+    background: #498a2d;
+    margin: 23px auto;
+  }
+  
+  .sagestim-lonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .vemotau-vokusipol{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  .testimonial {
+    background: #f9f4f4;
+    padding: 28px;
+  }
+  .testimonial img{
+    width: 90px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .gecedanam{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  .apogered-gselected{
+    color: #b5b6b5;
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width:960px) {
+  .vemotau-vokusipol{
+    flex: 100%;
+    max-width: 80%;
+  }
+  }
+  
+  @media screen and (max-width:600px) {
+  .vemotau-vokusipol{
+    flex: 100%;
+    max-width: 100%;
+  }
+  }
+  .reviews {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .review {
+    padding: 10px;
+    border-bottom: 1px solid #eaeaea;
+  }
+  .review:last-child {
+    border-bottom: none;
+  }
+  .review-text {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .review-author {
+    font-size: 14px;
+    color: #999;
+  }
+  .anketa {
+
+    background-color: #a3caa5;
+    
+    min-height: 850px;
+  color: white;
+
+}
+.anketa p {
+    color:white;
+    text-align: center;
+}
+.decor {
+    position: relative;
+    max-width: 600px;
+    margin: 50px auto 0;
+    background: rgb(85, 214, 100);
+    border-radius: 10px;
+  }
+  
+  .circle {
+    position: absolute;
+    bottom: 80px;
+    left: -55px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+  }
+  .form-inner {
+    padding: 50px;
+  }
+  .form-inner input, .form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .form-inner input[type="submit"] {
+    margin-top: 30px;
+    background: rgb(222, 11, 11);
+    border-bottom: 4px solid rgb(217, 13, 13);
+    color: white;
+    font-size: 14px;
+  }
+  .form-inner textarea {
+    resize: none;
+  }
+  .form-inner h3 {
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffffff;
+    
+  }
+  .container__main H3{
+  position:relative;
+    text-align:center;
+    margin: 15px auto 0;
+    padding-top:30px;
+    
+  }
+  .form-inner H3{
+    padding-bottom: 30px;
+  }
+/************************************
+            RESPONSIVE
+************************************/
+
+@media only screen and (max-width: 1690px) {
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+}
+
+@media only screen and (max-width: 980px) {
+
+
+}
